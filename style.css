@@ -41,7 +41,7 @@ header span {
 .main-section {
     padding: 70px 0;
     height: 100%;
-    margin: 60px 0;
+    margin: 70px 0;
     /* Стили для первой секции */
 }
 
@@ -69,7 +69,10 @@ header span {
 
 
 .about-section {
+    
     padding-top: 100px 0;
+    background: rgba(255, 255, 255, 1);
+
     /* Стили для второй секции */
 }
 
