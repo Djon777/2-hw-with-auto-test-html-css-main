@@ -41,7 +41,7 @@ header span {
 .main-section {
     
     height: 100%;
-    padding-top: 60 0px;
+    padding-top: 70 0px;
     /* Стили для первой секции */
 }
 
@@ -64,15 +64,13 @@ header span {
 .main-image {
     width: 715px;
     height: 508px;
-    top: 230px;
-    gap: 0px;
-    opacity: 0px;
+
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
-    padding-top: 100px;
+    padding-top: 100px 0;
     /* Стили для второй секции */
 }
 
