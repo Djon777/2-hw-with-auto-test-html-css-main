@@ -39,9 +39,9 @@ header span {
 }
 
 .main-section {
-    
+
     height: 100%;
-    padding-top: 70 0px;
+    margin-bottom: 70px;
     /* Стили для первой секции */
 }
 
