@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* Свойства для сброса начальных стилей элементов */
+}
+
+a {
+    text-decoration: none;
+}
+
+
+button {
+    border: none;
+    border-color: transparent;
+}
+
+html,
+body {
+    font-family: 'Inter', serif;
+}
+
+header {
+    background: rgba(41, 101, 241, 1);
+    font-weight: 700;
+    line-height: 68px;
+    margin-bottom: 60px;
+    /* Стили для хедера */
+}
+
+header span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    /* Стили для текста в хедере IT-INCUBATOR */
+}
+
+.main-section {
+    width: 1440px;
+    height: 100%;
+    padding-top: 60px;
+    /* Стили для первой секции */
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: left;
+    margin-bottom: 20px;
+    /* Стили для заголовка в первой секции */
+}
+
+.main-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;  
+    /* Стили для текста в первой секции */
+}
+
+.main-image {
+    width: 715px;
+    height: 508px;
+    top: 230px;
+    gap: 0px;
+    opacity: 0px;
+    /* Стили для изображения в первой секции */
+}
+
+
+.about-section {
+    padding-top: 100px;
+    /* Стили для второй секции */
+}
+
+select {
+    width: 150px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    font-size: 16px;
+    /* Стили для выпадающего списка */
+}
+
+.section-title {
+    margin-bottom: 25px;
+    color: #303030;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* Стили для заголовков во второй секции */
+}
+
+.frameworks-list {
+    padding-left: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-image: url(./img/Vector.svg);
+    /* Стили для маркированного списка во второй секции */
+} 
+
+.books-list {
+    padding-left: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFF;
+    /* Стили для нумерованного списка во второй секции */
+}
+
+.label {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 25 0;
+    /* Стили для подписей чекбоксов */
+}
+
+.text-field {
+    border: none;
+    width: 330px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    
+    
+    
+    /* Стили для односточного поля ввода текста */
+}
+
+.btn {
+    padding-left: 9px;
+    width: 125px;
+    height: 36px;
+    top: 1525px;
+    left: 339px;
+    border-radius: 5px;
+    background: rgba(41, 101, 241, 1);
+    color:  rgba(255, 255, 255, 1);
+    /* Стили для кнопки */
+}
+
+.line {
+    
+    width: 1440px;   
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    margin: 60px 0px 60px 0px;
+    /* Стили для линии */
+}
+
+table {
+    width: 300px;
+    height: 196px;
+    border: 1px solid rgba(149, 161, 187, 1);
+    border-collapse: collapse ;
+
+    /* Стили для таблицы */
+}
+
+th, td {
+    padding: 5px;
+
+    /* Стили для ячеек таблицы */
+}
+
+footer {
+    /* Стили для футера */
+}
+
+.footer-link {
+    /* Стили для футера */
+}
