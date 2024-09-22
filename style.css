@@ -157,20 +157,26 @@ table {
     height: 196px;
     border: 1px solid rgba(149, 161, 187, 1);
     border-collapse: collapse ;
-
+    font-size: 14px;
     /* Стили для таблицы */
 }
 
 th, td {
-    padding: 15px;
+    padding: 12px 15px;
 
     /* Стили для ячеек таблицы */
 }
 
 footer {
+    background-color: rgba(163, 167, 255, 0.3);
+    padding: 26px 0;
+    margin: 100px 0 0 0;
     /* Стили для футера */
 }
 
 .footer-link {
+    color: #2965F1;
+    font-size: 14px;
+    font-weight: 400;
     /* Стили для футера */
 }
